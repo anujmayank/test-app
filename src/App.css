@@ -15,12 +15,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
   color: white;
 }
 
@@ -28,11 +28,51 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Tabs {
+  margin-top: 40px;
+}
+
+.Tab {
+  border-bottom: 2px solid darkorange;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.projectName {
+  background: lightgray;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.projectIcon {
+  float: right;
+}
+
+.borderBottom {
+  border-bottom: 1px solid lightgray;
+}
+
+.tabContent {
+  margin-top: 30px;
+}
+
+.project {
+  text-align: left;
+  margin-left: 10px;
+  color: darkorange;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.projectLine {
+  text-align: left;
+  margin-left: 10px;
+  border-bottom: 1px solid lightgray;
 }
